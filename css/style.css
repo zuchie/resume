@@ -15,7 +15,10 @@
 
 h1 {
   font-size: 40px;
+  /*
   color: #F5A623;
+  */
+  color: cornFlowerBlue;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +26,10 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  /*
+  color: #dddddd;
+  */
+  color: cornFlowerBlue;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,7 +37,10 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
+  /*
   color: #000000;
+  */
+  color: cornFlowerBlue;
   line-height: 22px;
 }
 
@@ -87,16 +96,25 @@ a {
 }
 
 #skillsH3 {
+    /*
   color: #F5AE23;
+  */
+  color: cornFlowerBlue;
   display: none;
 }
 
 .orange {
+    /*
   background-color: #F5AE23;
+  */
+  background-color: cornFlowerBlue;
 }
 
 .orange-text {
+    /*
   color: #F5AE23;
+  */
+  color: cornFlowerBlue;
 }
 
 .white-text {
@@ -168,6 +186,9 @@ span {
 
 #letsConnect {
   text-align: center;
+}
+#letsConnect h2 {
+    color: white;
 }
 
 @media only screen and (max-width: 1024px) {
